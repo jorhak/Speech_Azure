@@ -23,3 +23,4 @@ var marker;
         document.addEventListener('DOMContentLoaded', function () {
             initMap();
         });
+

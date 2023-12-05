@@ -7,7 +7,7 @@
     <!-- Agrega tus estilos CSS y scripts JS aquí -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- Mapa -->
-	 <script async src="https://maps.googleapis.com/maps/api/js?key=HERE_API_KEY&callback=console.debug&libraries=maps,marker&v=beta">
+	 <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDhzY7jgByf0xUZrCF_2Oy8pgjmc-g_Bo&callback=console.debug&libraries=maps,marker&v=beta">
     </script>
     <link rel="stylesheet" href="{{ asset('build/assets/app-fce9e3dc.css') }}">
 

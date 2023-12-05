@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\UbicacionController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,9 +17,7 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 }); */
 
-Route::get('/index', function () {
-    return view('main.index');
-})->name('index');
+Route::get('/index',[UbicacionController::class, 'index'])->name('main.index');
 
 Route::get('/create', function () {
     return view('main.create');
@@ -29,3 +27,5 @@ Route::get('/edit/{id}', function ($id) {
     // Lógica para obtener los datos del elemento con el ID proporcionado
     return view('main.edit', ['id' => $id]);
 })->name('edit');
+
+Route::post('/guardar-ubicacion',[UbicacionController::class,'guardarUbicacion'])->name('guardar-ubicacion');

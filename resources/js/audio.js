@@ -10,7 +10,7 @@ var synthesizer;
 
 document.addEventListener("DOMContentLoaded", function () {
     startSpeakTextAsyncButton = document.getElementById("startSpeakTextAsyncButton");
-    subscriptionKey = 'API_KEY'
+    subscriptionKey = 'f3598174e4ac4bff8a4cc733ad6af1d5'
     serviceRegion = 'eastus'
     phraseDiv = document.getElementById("phraseDiv");
     resultDiv = document.getElementById("resultDiv");
